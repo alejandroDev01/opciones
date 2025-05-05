@@ -2,7 +2,7 @@ import express, { Request, Response } from "express";
 import cors from "cors";
 import * as dotenv from "dotenv";
 import os from "os";
-import axios from "axios"; // Import axios for HTTP requests
+import axios from "axios";
 
 dotenv.config();
 
@@ -38,6 +38,10 @@ export const createServer = () => {
       console.error("Error fetching public IP:", error);
     }
 
+    // Get client's IP address
+    const clientIpAddress =
+      req.headers["x-forwarded-for"] || req.connection.remoteAddress;
+
     res.json({
       status: "success",
       message: "Service is running",
@@ -45,6 +49,7 @@ export const createServer = () => {
         timestamp: new Date().toISOString(),
         localIpAddress: ipAddress,
         publicIpAddress: publicIpAddress,
+        clientIpAddress: clientIpAddress, // Include the client's IP address in the response
       },
     });
   });

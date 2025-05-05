@@ -41,7 +41,7 @@ const express_1 = __importDefault(require("express"));
 const cors_1 = __importDefault(require("cors"));
 const dotenv = __importStar(require("dotenv"));
 const os_1 = __importDefault(require("os"));
-const axios_1 = __importDefault(require("axios")); // Import axios for HTTP requests
+const axios_1 = __importDefault(require("axios"));
 dotenv.config();
 const createServer = () => {
     const app = (0, express_1.default)();
@@ -72,6 +72,8 @@ const createServer = () => {
         catch (error) {
             console.error("Error fetching public IP:", error);
         }
+        // Get client's IP address
+        const clientIpAddress = req.headers["x-forwarded-for"] || req.connection.remoteAddress;
         res.json({
             status: "success",
             message: "Service is running",
@@ -79,6 +81,7 @@ const createServer = () => {
                 timestamp: new Date().toISOString(),
                 localIpAddress: ipAddress,
                 publicIpAddress: publicIpAddress,
+                clientIpAddress: clientIpAddress, // Include the client's IP address in the response
             },
         });
     });
