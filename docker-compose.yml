@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  proxy-worker:
+    build:
+      context: .
+    environment:
+      - NODE_ENV=production
+    deploy:
+      replicas: 5
+    volumes:
+      - ./reports:/app/reports
+    restart: always
