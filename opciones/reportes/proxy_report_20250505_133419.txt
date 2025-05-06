@@ -1,0 +1,23 @@
+=== REPORTE DE PROXIES - 20250505_133419 ===
+Proxies probados: 15
+URL de prueba: http://httpbin.org/ip
+API objetivo: https://opciones-git-main-alejandrodev01s-projects.vercel.app/
+
+=== PROXIES FUNCIONALES ===
+
+=== PROXIES FALLIDOS ===
+http 50.174.7.159:80 - Error: Error de conexión
+http 50.223.246.237:80 - Error: Error de conexión
+http 50.202.75.26:80 - Error: Error de conexión
+http 50.174.7.153:80 - Error: Error de conexión
+http 50.207.199.87:80 - Error: Error de conexión
+http 50.207.199.80:80 - Error: Error de conexión
+http 50.207.199.83:80 - Error: Error de conexión
+http 32.223.6.94:80 - Error: Error de conexión
+http 99.79.124.70:80 - Error: Error de conexión
+http 37.120.172.84:80 - Error: HTTP 502
+http 99.79.124.70:80 - Error: Error de conexión
+http 37.120.172.84:80 - Error: Error de conexión
+http 89.58.53.205:80 - Error: Error de conexión
+http 89.58.53.205:80 - Error: Error de conexión
+http 51.75.206.209:80 - Error: Timeout

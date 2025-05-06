@@ -1,0 +1,16 @@
+=== PROXIES FUNCIONANDO ===
+
+
+=== PROXIES FALLIDOS ===
+http 50.174.7.159:80 - Razón: Connection failed
+http 32.223.6.94:80 - Razón: Connection failed
+http 50.223.246.237:80 - Razón: Connection failed
+http 50.202.75.26:80 - Razón: Connection failed
+http 50.174.7.153:80 - Razón: Connection failed
+http 50.207.199.87:80 - Razón: Connection failed
+http 50.207.199.83:80 - Razón: Connection failed
+http 50.207.199.80:80 - Razón: Connection failed
+http 99.79.124.70:80 - Razón: Connection failed
+http 37.120.172.84:80 - Razón: Timeout
+http 89.58.53.205:80 - Razón: Connection failed
+http 51.75.206.209:80 - Razón: Timeout

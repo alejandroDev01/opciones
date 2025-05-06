@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "date": "20250505_133419",
+    "total_tested": 15,
+    "working_count": 0,
+    "failed_count": 15,
+    "test_url": "http://httpbin.org/ip",
+    "target_api": "https://opciones-git-main-alejandrodev01s-projects.vercel.app/"
+  },
+  "working": [],
+  "failed": [
+    {
+      "proxy": "http 50.174.7.159:80",
+      "error": "Error de conexi\u00f3n"
+    },
+    {
+      "proxy": "http 50.223.246.237:80",
+      "error": "Error de conexi\u00f3n"
+    },
+    {
+      "proxy": "http 50.202.75.26:80",
+      "error": "Error de conexi\u00f3n"
+    },
+    {
+      "proxy": "http 50.174.7.153:80",
+      "error": "Error de conexi\u00f3n"
+    },
+    {
+      "proxy": "http 50.207.199.87:80",
+      "error": "Error de conexi\u00f3n"
+    },
+    {
+      "proxy": "http 50.207.199.80:80",
+      "error": "Error de conexi\u00f3n"
+    },
+    {
+      "proxy": "http 50.207.199.83:80",
+      "error": "Error de conexi\u00f3n"
+    },
+    {
+      "proxy": "http 32.223.6.94:80",
+      "error": "Error de conexi\u00f3n"
+    },
+    {
+      "proxy": "http 99.79.124.70:80",
+      "error": "Error de conexi\u00f3n"
+    },
+    {
+      "proxy": "http 37.120.172.84:80",
+      "error": "HTTP 502"
+    },
+    {
+      "proxy": "http 99.79.124.70:80",
+      "error": "Error de conexi\u00f3n"
+    },
+    {
+      "proxy": "http 37.120.172.84:80",
+      "error": "Error de conexi\u00f3n"
+    },
+    {
+      "proxy": "http 89.58.53.205:80",
+      "error": "Error de conexi\u00f3n"
+    },
+    {
+      "proxy": "http 89.58.53.205:80",
+      "error": "Error de conexi\u00f3n"
+    },
+    {
+      "proxy": "http 51.75.206.209:80",
+      "error": "Timeout"
+    }
+  ]
+}

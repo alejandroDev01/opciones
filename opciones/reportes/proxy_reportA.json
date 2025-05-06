@@ -1,0 +1,332 @@
+[
+    {
+        "numeroSolicitud": 1,
+        "protocolo": "http",
+        "ipPublica": null,
+        "prueba": {
+            "error": "HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1131)')))",
+            "respuesta": null,
+            "encabezados": null
+        }
+    },
+    {
+        "numeroSolicitud": 2,
+        "protocolo": "http",
+        "ipPublica": "8.130.36.245",
+        "prueba": {
+            "error": null,
+            "respuesta": "{\"ip\":\"8.130.36.245\"}",
+            "encabezados": {
+                "Cf-Cache-Status": "DYNAMIC",
+                "Cf-Ray": "8b1ff9c838d3638f-LHR",
+                "Connection": "keep-alive",
+                "Content-Type": "application/json",
+                "Date": "2025-05-06T19:59:38+08:00",
+                "Server": "cloudflare",
+                "Vary": "Origin",
+                "Content-Length": "21"
+            }
+        }
+    },
+    {
+        "numeroSolicitud": 3,
+        "protocolo": "http",
+        "ipPublica": null,
+        "prueba": {
+            "error": "('Connection aborted.', ConnectionResetError(10054, 'Se ha forzado la interrupci\u00f3n de una conexi\u00f3n existente por el host remoto', None, 10054, None))",
+            "respuesta": null,
+            "encabezados": null
+        }
+    },
+    {
+        "numeroSolicitud": 4,
+        "protocolo": "http",
+        "ipPublica": null,
+        "prueba": {
+            "error": "HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1131)')))",
+            "respuesta": null,
+            "encabezados": null
+        }
+    },
+    {
+        "numeroSolicitud": 5,
+        "protocolo": "http",
+        "ipPublica": null,
+        "prueba": {
+            "error": "HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1131)')))",
+            "respuesta": null,
+            "encabezados": null
+        }
+    },
+    {
+        "numeroSolicitud": 6,
+        "protocolo": "http",
+        "ipPublica": null,
+        "prueba": {
+            "error": "HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by SSLError(SSLError(1, '[SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2635)')))",
+            "respuesta": null,
+            "encabezados": null
+        }
+    },
+    {
+        "numeroSolicitud": 7,
+        "protocolo": "http",
+        "ipPublica": null,
+        "prueba": {
+            "error": "('Connection aborted.', FileNotFoundError(2, 'No such file or directory'))",
+            "respuesta": null,
+            "encabezados": null
+        }
+    },
+    {
+        "numeroSolicitud": 8,
+        "protocolo": "http",
+        "ipPublica": "47.238.60.156",
+        "prueba": {
+            "error": null,
+            "respuesta": "{\"ip\":\"47.238.60.156\"}",
+            "encabezados": {
+                "Cf-Cache-Status": "DYNAMIC",
+                "Cf-Ray": "8b1ff9c838d3638f-LHR",
+                "Connection": "keep-alive",
+                "Content-Type": "application/json",
+                "Date": "2025-05-06T20:00:16+08:00",
+                "Server": "cloudflare",
+                "Vary": "Origin",
+                "Content-Length": "22"
+            }
+        }
+    },
+    {
+        "numeroSolicitud": 9,
+        "protocolo": "http",
+        "ipPublica": "8.211.49.86",
+        "prueba": {
+            "error": null,
+            "respuesta": "{\"ip\":\"8.211.49.86\"}",
+            "encabezados": {
+                "Cf-Cache-Status": "DYNAMIC",
+                "Cf-Ray": "8b1ff9c838d3638f-LHR",
+                "Connection": "keep-alive",
+                "Content-Type": "application/json",
+                "Date": "2025-05-06T20:00:24+08:00",
+                "Server": "cloudflare",
+                "Vary": "Origin",
+                "Content-Length": "20"
+            }
+        }
+    },
+    {
+        "numeroSolicitud": 10,
+        "protocolo": "http",
+        "ipPublica": null,
+        "prueba": {
+            "error": "HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1131)')))",
+            "respuesta": null,
+            "encabezados": null
+        }
+    },
+    {
+        "numeroSolicitud": 11,
+        "protocolo": "http",
+        "ipPublica": "8.221.138.111",
+        "prueba": {
+            "error": null,
+            "respuesta": "{\"ip\":\"8.221.138.111\"}",
+            "encabezados": {
+                "Cf-Cache-Status": "DYNAMIC",
+                "Cf-Ray": "8b1ff9c838d3638f-LHR",
+                "Connection": "keep-alive",
+                "Content-Type": "application/json",
+                "Date": "2025-05-06T20:00:35+08:00",
+                "Server": "cloudflare",
+                "Vary": "Origin",
+                "Content-Length": "22"
+            }
+        }
+    },
+    {
+        "numeroSolicitud": 12,
+        "protocolo": "http",
+        "ipPublica": null,
+        "prueba": {
+            "error": "HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x00000284A98DD0A0>, 'Connection to 45.22.209.157 timed out. (connect timeout=15)')))",
+            "respuesta": null,
+            "encabezados": null
+        }
+    },
+    {
+        "numeroSolicitud": 13,
+        "protocolo": "http",
+        "ipPublica": null,
+        "prueba": {
+            "error": "HTTPSConnectionPool(host='api.ipify.org', port=443): Read timed out. (read timeout=15)",
+            "respuesta": null,
+            "encabezados": null
+        }
+    },
+    {
+        "numeroSolicitud": 14,
+        "protocolo": "http",
+        "ipPublica": "8.130.54.67",
+        "prueba": {
+            "error": null,
+            "respuesta": "{\"ip\":\"8.130.54.67\"}",
+            "encabezados": {
+                "Cf-Cache-Status": "DYNAMIC",
+                "Cf-Ray": "8b1ff9c838d3638f-LHR",
+                "Connection": "keep-alive",
+                "Content-Type": "application/json",
+                "Date": "2025-05-06T20:01:11+08:00",
+                "Server": "cloudflare",
+                "Vary": "Origin",
+                "Content-Length": "20"
+            }
+        }
+    },
+    {
+        "numeroSolicitud": 15,
+        "protocolo": "http",
+        "ipPublica": "47.90.149.238",
+        "prueba": {
+            "error": null,
+            "respuesta": "{\"ip\":\"47.90.149.238\"}",
+            "encabezados": {
+                "Cf-Cache-Status": "DYNAMIC",
+                "Cf-Ray": "8b1ff9c838d3638f-LHR",
+                "Connection": "keep-alive",
+                "Content-Type": "application/json",
+                "Date": "2025-05-06T20:01:17+08:00",
+                "Server": "cloudflare",
+                "Vary": "Origin",
+                "Content-Length": "22"
+            }
+        }
+    },
+    {
+        "numeroSolicitud": 16,
+        "protocolo": "http",
+        "ipPublica": "47.252.18.37",
+        "prueba": {
+            "error": null,
+            "respuesta": "{\"ip\":\"47.252.18.37\"}",
+            "encabezados": {
+                "Cf-Cache-Status": "DYNAMIC",
+                "Cf-Ray": "8b1ff9c838d3638f-LHR",
+                "Connection": "keep-alive",
+                "Content-Type": "application/json",
+                "Date": "2025-05-06T20:01:22+08:00",
+                "Server": "cloudflare",
+                "Vary": "Origin",
+                "Content-Length": "21"
+            }
+        }
+    },
+    {
+        "numeroSolicitud": 17,
+        "protocolo": "http",
+        "ipPublica": null,
+        "prueba": {
+            "error": "HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1131)')))",
+            "respuesta": null,
+            "encabezados": null
+        }
+    },
+    {
+        "numeroSolicitud": 18,
+        "protocolo": "http",
+        "ipPublica": null,
+        "prueba": {
+            "error": "HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1131)')))",
+            "respuesta": null,
+            "encabezados": null
+        }
+    },
+    {
+        "numeroSolicitud": 19,
+        "protocolo": "http",
+        "ipPublica": null,
+        "prueba": {
+            "error": "HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1131)')))",
+            "respuesta": null,
+            "encabezados": null
+        }
+    },
+    {
+        "numeroSolicitud": 20,
+        "protocolo": "http",
+        "ipPublica": "8.212.165.164",
+        "prueba": {
+            "error": null,
+            "respuesta": "{\"ip\":\"8.212.165.164\"}",
+            "encabezados": {
+                "Cf-Cache-Status": "DYNAMIC",
+                "Cf-Ray": "8b1ff9c838d3638f-LHR",
+                "Connection": "keep-alive",
+                "Content-Type": "application/json",
+                "Date": "2025-05-06T20:01:48+08:00",
+                "Server": "cloudflare",
+                "Vary": "Origin",
+                "Content-Length": "22"
+            }
+        }
+    },
+    {
+        "numeroSolicitud": 21,
+        "protocolo": "http",
+        "ipPublica": null,
+        "prueba": {
+            "error": "HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1131)')))",
+            "respuesta": null,
+            "encabezados": null
+        }
+    },
+    {
+        "numeroSolicitud": 22,
+        "protocolo": "http",
+        "ipPublica": "47.238.60.156",
+        "prueba": {
+            "error": null,
+            "respuesta": "{\"ip\":\"47.238.60.156\"}",
+            "encabezados": {
+                "Cf-Cache-Status": "DYNAMIC",
+                "Cf-Ray": "8b1ff9c838d3638f-LHR",
+                "Connection": "keep-alive",
+                "Content-Type": "application/json",
+                "Date": "2025-05-06T20:02:00+08:00",
+                "Server": "cloudflare",
+                "Vary": "Origin",
+                "Content-Length": "22"
+            }
+        }
+    },
+    {
+        "numeroSolicitud": 23,
+        "protocolo": "http",
+        "ipPublica": null,
+        "prueba": {
+            "error": "('Connection aborted.', FileNotFoundError(2, 'No such file or directory'))",
+            "respuesta": null,
+            "encabezados": null
+        }
+    },
+    {
+        "numeroSolicitud": 24,
+        "protocolo": "http",
+        "ipPublica": "47.91.121.127",
+        "prueba": {
+            "error": null,
+            "respuesta": "{\"ip\":\"47.91.121.127\"}",
+            "encabezados": {
+                "Cf-Cache-Status": "DYNAMIC",
+                "Cf-Ray": "8b1ff9c838d3638f-LHR",
+                "Connection": "keep-alive",
+                "Content-Type": "application/json",
+                "Date": "2025-05-06T20:02:19+08:00",
+                "Server": "cloudflare",
+                "Vary": "Origin",
+                "Content-Length": "22"
+            }
+        }
+    }
+]

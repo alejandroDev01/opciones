@@ -1,0 +1,2 @@
+WORKING_PROXIES = []
+FAILED_PROXIES = {'http 50.174.7.159:80': 'Connection failed', 'http 32.223.6.94:80': 'Connection failed', 'http 50.223.246.237:80': 'Connection failed', 'http 50.202.75.26:80': 'Connection failed', 'http 50.174.7.153:80': 'Connection failed', 'http 50.207.199.87:80': 'Connection failed', 'http 50.207.199.83:80': 'Connection failed', 'http 50.207.199.80:80': 'Connection failed', 'http 99.79.124.70:80': 'Connection failed', 'http 37.120.172.84:80': 'Timeout', 'http 89.58.53.205:80': 'Connection failed', 'http 51.75.206.209:80': 'Timeout'}

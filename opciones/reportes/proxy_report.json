@@ -1,0 +1,119 @@
+[
+    {
+        "numeroSolicitud": 1,
+        "protocolo": "http",
+        "ipPublica": null,
+        "prueba": {
+            "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+            "respuesta": null,
+            "encabezados": null
+        }
+    },
+    {
+        "numeroSolicitud": 2,
+        "protocolo": "http",
+        "ipPublica": "8.130.36.245",
+        "prueba": {
+            "error": null,
+            "respuesta": "{\"ip\":\"8.130.36.245\"}",
+            "encabezados": {
+                "Cf-Cache-Status": "DYNAMIC",
+                "Cf-Ray": "8b1ff9c838d3638f-LHR",
+                "Connection": "keep-alive",
+                "Content-Type": "application/json",
+                "Date": "2025-05-06T20:36:01+08:00",
+                "Server": "cloudflare",
+                "Vary": "Origin",
+                "Content-Length": "21"
+            }
+        }
+    },
+    {
+        "numeroSolicitud": 3,
+        "protocolo": "http",
+        "ipPublica": null,
+        "prueba": {
+            "error": "('Connection aborted.', ConnectionResetError(10054, 'Se ha forzado la interrupci\u00f3n de una conexi\u00f3n existente por el host remoto', None, 10054, None))",
+            "respuesta": null,
+            "encabezados": null
+        }
+    },
+    {
+        "numeroSolicitud": 4,
+        "protocolo": "http",
+        "ipPublica": null,
+        "prueba": {
+            "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+            "respuesta": null,
+            "encabezados": null
+        }
+    },
+    {
+        "numeroSolicitud": 5,
+        "protocolo": "http",
+        "ipPublica": null,
+        "prueba": {
+            "error": "HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1131)')))",
+            "respuesta": null,
+            "encabezados": null
+        }
+    },
+    {
+        "numeroSolicitud": 6,
+        "protocolo": "http",
+        "ipPublica": null,
+        "prueba": {
+            "error": "HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1131)')))",
+            "respuesta": null,
+            "encabezados": null
+        }
+    },
+    {
+        "numeroSolicitud": 7,
+        "protocolo": "http",
+        "ipPublica": null,
+        "prueba": {
+            "error": "HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1131)')))",
+            "respuesta": null,
+            "encabezados": null
+        }
+    },
+    {
+        "numeroSolicitud": 8,
+        "protocolo": "http",
+        "ipPublica": "47.238.60.156",
+        "prueba": {
+            "error": null,
+            "respuesta": "{\"ip\":\"47.238.60.156\"}",
+            "encabezados": {
+                "Cf-Cache-Status": "DYNAMIC",
+                "Cf-Ray": "8b1ff9c838d3638f-LHR",
+                "Connection": "keep-alive",
+                "Content-Type": "application/json",
+                "Date": "2025-05-06T20:36:31+08:00",
+                "Server": "cloudflare",
+                "Vary": "Origin",
+                "Content-Length": "22"
+            }
+        }
+    },
+    {
+        "numeroSolicitud": 9,
+        "protocolo": "http",
+        "ipPublica": "47.91.121.127",
+        "prueba": {
+            "error": null,
+            "respuesta": "{\"ip\":\"47.91.121.127\"}",
+            "encabezados": {
+                "Cf-Cache-Status": "DYNAMIC",
+                "Cf-Ray": "8b1ff9c838d3638f-LHR",
+                "Connection": "keep-alive",
+                "Content-Type": "application/json",
+                "Date": "2025-05-06T20:36:37+08:00",
+                "Server": "cloudflare",
+                "Vary": "Origin",
+                "Content-Length": "22"
+            }
+        }
+    }
+]

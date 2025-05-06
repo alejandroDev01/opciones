@@ -1,0 +1,9 @@
+=== PROXIES FUNCIONANDO ===
+
+
+
+=== PROXIES FALLIDOS ===
+
+Proxy: http 37.120.172.84:80
+Error: HTTPSConnectionPool(host='opciones.vercel.app', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 400 Bad Request')))
+--------------------------------------------------
